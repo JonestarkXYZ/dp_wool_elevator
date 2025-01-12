@@ -1,9 +1,9 @@
 {
     "pack": {
-        "pack_format": 57,
+        "pack_format": 61,
         "description": [
             {"text": "dp_wool_elevator for: ", "color": "gold"},
-            {"text": "MC Java (1.21.2) - (1.21.3)", "color": "yellow"},
+            {"text": "MC Java (1.21.4)", "color": "yellow"},
             {"text": "\nGitHub: ", "color": "gold"},
             {"text": "https://github.com/JonestarkXYZ/dp_wool_elevator", "color": "aqua"},
             {"text": "\nLicense: ", "color": "gold"},
