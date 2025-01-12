@@ -1,2 +1,2 @@
 schedule function wool_elevator:check_items 1s
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_pearl",Count:1b}}] at @s positioned ~ ~-0.25 ~ if block ~ ~ ~ #minecraft:wool align xyz unless entity @e[type=minecraft:bee,tag=elevs.marker,dx=0,dy=0,dz=0] run function wool_elevator:create_elevator
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_pearl",Count:1b}}] at @s positioned ~ ~-0.25 ~ if block ~ ~ ~ #minecraft:wool align xyz unless entity @e[type=minecraft:interaction,tag=elevs.marker,dx=0,dy=0,dz=0] run function wool_elevator:create_elevator
